@@ -1,7 +1,6 @@
 # DGCPM + LETKF — plasmasphere data assimilation
 
-An hourly-cycling, 16-member **Localized Ensemble Transform Kalman Filter**
-(Hunt, Kostelich & Szunyogh, 2007) built around the **original Fortran
+An hourly-cycling, 16-member **Localized Ensemble Transform Kalman Filter** built around the **original Fortran
 DGCPM/SWMF** model, driven by state injection through the model's own restart
 files. It assimilates real electron-density observations from **Arase**, **EMMA**
 and **AWDANet**, and is scored by **cross-validation** against a free run of the
